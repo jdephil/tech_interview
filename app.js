@@ -15,7 +15,7 @@ const submitForm = (form) => {
  chosenOption = form.storyOptions.options[index].text
  
  
- fetch(`https://gnews.io/api/v4/search?q=${chosenOption}&token=https://gnews.io/api/v4/search?q=example&token=https://gnews.io/api/v4/search?q=example&token=daea43b4c9d14a086bfb07f8aa88b09a`)
+ fetch(`https://gnews.io/api/v4/search?q=${chosenOption}&token=daea43b4c9d14a086bfb07f8aa88b09a`)
  .then(res => 
   res.json()
   ).then(data => {
